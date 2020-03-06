@@ -1,22 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/* Name:Christopher Badolato
+Course: CNT 4714 Spring 2020 Assignment title: 
+Project Three:  Two-Tier Client-Server Application Development With MySQL and JDBC
+March 5, 2020
+Class:  Project3CBadolato_clientServer.java*/ 
+
 package project3cbadolato_clientserver;
 
-import java.sql.Connection;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-/**
- *
- * @author Chris Badolato
- */
+
 public class Project3CBadolato_clientServer extends Application {
     
     @Override
@@ -35,7 +30,7 @@ public class Project3CBadolato_clientServer extends Application {
      */
     public static void main(String[] args) {
         launch(args);
-        //System.out.print("Hello");
+        
     }
     
 }
